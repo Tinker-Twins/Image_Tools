@@ -1,10 +1,20 @@
 # Image Tools - ROS2 Foxy
 Camera Frame Grabbing with Image Tools for ROS2 Foxy
 
+## Clone
+```bash
+# Open new terminal.
+$ mkdir -p ~/Image_Tools/src && cd ~/Image_Tools/src
+$ git clone https://github.com/Tinker-Twins/Image_Tools.git
+# Clone following repository instead for default functionalities (might be included with ROS installation).
+# $ git clone --branch foxy https://github.com/ros2/demos.git
+```
+
 ## **Build**
 
 ```bash
-colcon build --packages-select image_tools
+$ cd ..
+$ colcon build
 ```
 
 ## **Run**
