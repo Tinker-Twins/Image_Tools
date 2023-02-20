@@ -33,5 +33,21 @@ Running this executable creates a ROS2 node, `showimage`, which subscribes to th
 ros2 run image_tools showimage
 ```
 
+## **Launch**
+
+## **1 - camera**
+```bash
+# Open new terminal.
+ros2 launch image_tools camera.launch.py
+# Open new terminal.
+ros2 run rqt_image_view rqt_image_view
+```
+
+## **2 - camera_view**
+```bash
+# Open new terminal.
+ros2 launch image_tools camera_view.launch.py
+```
+
 ## Reference:
 https://github.com/ros2/demos/tree/foxy/image_tools
