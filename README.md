@@ -15,6 +15,7 @@ $ git clone https://github.com/Tinker-Twins/Image_Tools.git
 ```bash
 $ cd ..
 $ colcon build
+$ source install/local_setup.bash
 ```
 
 ## **Run**
